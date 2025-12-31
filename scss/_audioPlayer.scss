@@ -1,0 +1,30 @@
+#audioPlayer {
+  .audio {
+    &-controls {
+      display: flex;
+      flex-flow: row;
+      gap: 10px;
+
+      input[type="range"] {
+        accent-color: coral;
+        border: var(--border) solid 2px;
+        color: var(--red);
+        accent-color: var(--red);
+      }
+    }
+
+  }
+
+  .btn {
+
+    border: var(--border) solid 2px;
+    border-radius: 50%;
+    background-color: var(--btnBG);
+    padding: 5px;
+    color: var(--red);
+    filter: drop-shadow(0px 0px 5px var(--shadow));
+    font-size: 1.5rem;
+
+    &-playPause {}
+  }
+}
