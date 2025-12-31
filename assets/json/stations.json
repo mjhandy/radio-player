@@ -1,0 +1,42 @@
+[
+  {
+    "name": "CBC Radio One",
+    "city": "Halifax",
+    "call-sign": "CBHA-FM",
+    "freq": "90.5 FM",
+    "stream-url": "",
+    "active": true
+  },
+  {
+    "name": "CBC Music",
+    "city": "Halifax",
+    "call-sign": "CBH-FM",
+    "freq": "102.7 FM",
+    "stream-url": "",
+    "active": true
+  },
+  {
+    "name": "CKBW",
+    "city": "Bridgewater",
+    "call-sign": "CKBW-FM",
+    "freq": "98.1 FM",
+    "stream-url": "https://ais-sa1.streamon.fm/7239_128k.aac",
+    "active": true
+  },
+  {
+    "name": "Country 100.7",
+    "city": "Bridgewater",
+    "call-sign": "CJHK-FM",
+    "freq":"100.7 FM",
+    "stream-url": "",
+    "active": true
+  },
+  {
+    "name": "Cove FM",
+    "city":"Hubbards",
+    "call-sign":"CKVE-FM",
+    "freq":"88.7 FM",
+    "stream-url":"",
+    "active":true
+  }
+]
