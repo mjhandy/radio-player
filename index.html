@@ -8,9 +8,18 @@
 
 <body>
   <div id="audioPlayer" class="audio">
+    <div class="audio-progressBar">
+
+    </div>
     <div class="audio-controls">
+      <button class="btn btn-back" type="button">
+        <i class="bi bi-skip-start-fill"></i>
+      </button>
       <button class="btn btn-playPause" type="button">
         <i class="bi bi-play-fill"></i>
+      </button>
+      <button class="btn btn-next" type="button">
+        <i class="bi bi-skip-end-fill"></i>
       </button>
       <input type="range" id="volumeBar" min="0" max="1" step="0.01" value="0.75" class="volumeBar">
       <button class="btn btn-mute" type="button">

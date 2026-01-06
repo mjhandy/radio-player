@@ -1,10 +1,14 @@
+@use 'sass:color';
+
 /* Colours */
 $black: #000;
 $white: #fff;
 $red: rgb(255, 0, 0);
-$border: lighten($black, 50%);
+// $border: lighten($black, 50%);
+$border: color.scale($black, $lightness: 50%);
 $btnBG : $white;
-$shadow: lighten($black, 50%);
+// $shadow: lighten($black, 50%);
+$shadow: color.scale($black, $lightness: 50%);
 
 :root{
   // colours

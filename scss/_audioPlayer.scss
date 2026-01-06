@@ -1,5 +1,14 @@
-#audioPlayer {
   .audio {
+    display: flex;
+    flex-flow: column;
+    width: fit-content;
+    gap: 15px;
+    &-progressBar{
+      background-color: lightblue;
+      border-radius: 20px;
+      width: 100%;
+      height: 10px;
+    }
     &-controls {
       display: flex;
       flex-flow: row;
@@ -10,6 +19,7 @@
         border: var(--border) solid 2px;
         color: var(--red);
         accent-color: var(--red);
+        
       }
     }
 
@@ -27,4 +37,3 @@
 
     &-playPause {}
   }
-}
